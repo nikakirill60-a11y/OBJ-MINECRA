@@ -33,14 +33,14 @@
 
 ## Как собрать
 
-1. Поставь **JDK 17** и **Gradle 8.x**.
+1. Поставь **JDK 17** (Gradle отдельно ставить не надо — wrapper скачает сам).
 2. В корне репозитория запусти:
-   - Windows: `gradlew.bat build` (если ругнётся на отсутствие `gradle-wrapper.jar` —
-     выполни один раз `gradle wrapper --gradle-version 8.5`, либо сразу `gradle build`);
-   - Linux/macOS: `./gradlew build` (или `gradle build`).
+   - Windows: `gradlew.bat build`
+   - Linux/macOS: `./gradlew build`
+   (первая сборка долго качает Forge и зависимости — это нормально).
 3. Готовый jar появится в `build/libs/` (имя вида `stalkerjackets-1.20.1-1.0.0.jar`).
 
-Для запуска тестового клиента из исходников: `gradle runClient`.
+Для запуска тестового клиента из исходников: `gradlew runClient`.
 
 ## Как установить
 
@@ -61,7 +61,7 @@
 4. В `ModItems.java` добавь регистрацию: `register(JacketMaterial.MARKED, false)`.
 5. Добавь названия в `lang/ru_ru.json` и `lang/en_us.json`
    (`item.stalkerjackets.jacket_marked`) и строчку в `ModCreativeTab.java`.
-6. Собери заново: `gradle build`.
+6. Собери заново: `gradlew build` (`gradlew.bat build` на Windows).
 
 ## Как заменить OBJ-модель
 
