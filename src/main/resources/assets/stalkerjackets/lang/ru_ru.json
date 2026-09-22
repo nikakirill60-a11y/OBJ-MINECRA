@@ -1,0 +1,12 @@
+{
+  "itemGroup.stalkerjackets": "Куртки сталкеров (OBJ)",
+  "item.stalkerjackets.jacket_stalker": "Куртка сталкера",
+  "item.stalkerjackets.jacket_veteran": "Куртка ветерана",
+  "item.stalkerjackets.jacket_bandits": "Куртка бандита",
+  "item.stalkerjackets.jacket_renegade": "Куртка ренегата",
+  "item.stalkerjackets.jacket_cs": "Комбинезон «Чистого неба»",
+  "item.stalkerjackets.jacket_freedom": "Куртка «Свободы»",
+  "item.stalkerjackets.jacket_dolg": "Комбинезон «Долга»",
+  "tooltip.stalkerjackets.fullset": "Полный комплект брони в одном предмете",
+  "tooltip.stalkerjackets.slot": "Надевается в слот нагрудника"
+}

@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+out/
+run/
+mcmodsrepo/
+
+# IDE
+.idea/
+*.iml
+bin/
+.classpath
+.project
+.settings/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local previews / experiments (see README, docs/preview.png is kept)
+.preview/
+*.rgba
+*.ppm

@@ -1,0 +1,12 @@
+{
+  "itemGroup.stalkerjackets": "STALKER Jackets (OBJ)",
+  "item.stalkerjackets.jacket_stalker": "Stalker Jacket",
+  "item.stalkerjackets.jacket_veteran": "Veteran Jacket",
+  "item.stalkerjackets.jacket_bandits": "Bandit Jacket",
+  "item.stalkerjackets.jacket_renegade": "Renegade Jacket",
+  "item.stalkerjackets.jacket_cs": "Clear Sky Suit",
+  "item.stalkerjackets.jacket_freedom": "Freedom Jacket",
+  "item.stalkerjackets.jacket_dolg": "Duty Suit",
+  "tooltip.stalkerjackets.fullset": "Full armor set in a single item",
+  "tooltip.stalkerjackets.slot": "Worn in the chestplate slot"
+}
